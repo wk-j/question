@@ -1,3 +1,86 @@
 ## Question
 
-1,2
+From [reddit](https://www.reddit.com/r/csharp/comments/90pufd/list_of_80_c_interview_questions)
+
+- [x] What happens when I throw exception as something that doesnt inherit from System.Exception? What's going on up to 1?
+- [x] How to effectively swallow ThreadAbortException?
+- [x] How to catch AccessViolation exceptions? How to catch them at .NET 1?
+- [ ] Method A calls method B from the try block part try + finally. Method B causes an exception in the try block part of the try + finally block. Is it possible that no finally will be performed? Is it possible that only the outermost (from method A) will be executed?
+- [ ] What is the difference between finally and fault?
+- [ ] Is the exception filter only syntactic sugar?
+- [ ] How to compact LOH?
+- What objects besides those with a size of 85,000+ bytes fly on the LOH in the dotnet framework?
+- How do you ask dotnet not to throw exceptions out of band?
+- How to "resurrect" an object? How do you make dotnet clean it again?
+- What is VM_HOARDING?
+- How do I turn off GC?
+- How to make a code snippet that will kill the entire app's domain when exception occurs?
+- What are interior pointers?
+- Can the interface have a type constructor? How to do it?
+- How do you change the name of the indexer?
+- Can the interface have static fields and methods? How to make them?
+- How many objects are created when initialized by new Foo {Bar = 1}?
+- What is covariance? Contravariance? How does it work in tables, and how in generics?
+- Does dynamic support extension methods?
+- What is the difference in calling equals from ==?
+- How to make a parameter-free constructor for a structure?
+- What is the difference between new Structure () and default (Structure) where Structure is struct?
+- What resolution does TimeSpan have?
+- How many bytes does an empty structure occupy?
+- What is the blittable type?
+- Can two methods differ only in the type returned?
+- What is the difference between const and readonly?
+- How are the parameters passed in C #? By value? By reference? Otherwise?
+- In what order are the parameters calculated when calling a function?
+- What is the difference between typeof and GetType?
+- How are compiled using, lock? How did the lock change around .NET 4?
+- How much memory does the thread eat at the start?
+- What is string interning?
+- What is the switch compiled for?
+- What is a macereph? refvalue? refType? argslist?
+- How to make a union in C #?
+- How many appdomen there's defaultly?
+- How many threads does the app have at the start?
+- What happens when there'll be an exception @ finalizer? What will happen if it's an infinite loop?
+- What is syncblock?
+- Does P / Invoke pin points to objects?
+- What is object pinning?
+- Is it possible to nest class in class? or In the interface? Interface in the class?
+- How to block access to private ingredients through reflection?
+- Does foreach require an interface? What is WellKnownMember?
+- What call convention does dotnet use?
+- How do I await async void? How to catch an exception from this method?
+- What'll happen if an exception will occur at async task but not awaited.
+- How does query syntax work in LINQ? What is it compiled for?
+- What is the difference between Select and IEnumerable from that of IQueryable?
+- Can decimal be const? A string? And the class Foo instance?
+- Can x == x give false? A x.Equals (x)?
+- What is the card table? A brick table?
+- What is write barrier?
+- Do value types have a method table? What is the method table?
+- Is generation 0 compacted?
+- What is finalization queue? What is f-reachable queue?
+- Does CLR support fibers?
+- What is the unmanaged class in C ++ / CLI compiled for?
+- Can Timer be cleaned up if he has to make some callbacks, but no one has references to him?
+- Is it possible to pass a volatile variable by reference?
+- Are streams thread safe?
+- Can you lock value type?
+- What is shared between the app's domains?
+- Does Thread.Yield or Thread.Join pump COM messages?
+- How is Thread.Yield different from Thread.Sleep (0)?
+- What are the rules of the memory model?
+- From what is delegate inheriting?
+- We have a delegate with three methods. What happens if the first "hooked" method throws an exception?
+- What is the difference between delegate {...} and delegate () {...}?
+- Can you define a global field?
+- Can you write DllMain in C #?
+- Is it possible to write your own `Nullable <t>`?
+- What is casting on true and false?
+- Can you have a try in the yield method? A catch? And finally? in the async method?
+- What is the bit-mapped attribute? Custom? Pseudo-custom?
+- After which he inherits the array?
+- Is it possible to make an indexed index from two?
+- What is shim?
+- What is the difference between F-Call and Q-Call
+- What's the difference between filling `new List<T>()` and than `new List<T>(size)`
