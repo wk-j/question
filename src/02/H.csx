@@ -1,3 +1,6 @@
+// How to effectively swallow ThreadAbortException?
+
+// [x]
 
 using System;
 using System.Threading;
