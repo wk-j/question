@@ -2,29 +2,29 @@
 
 From [reddit](https://www.reddit.com/r/csharp/comments/90pufd/list_of_80_c_interview_questions)
 
-- [x] What happens when I throw exception as something that doesnt inherit from System.Exception? What's going on up to 1?
-- [x] How to effectively swallow ThreadAbortException?
-- [x] How to catch AccessViolation exceptions? How to catch them at .NET 1?
-- [ ] Method A calls method B from the try block part try + finally. Method B causes an exception in the try block part of the try + finally block. Is it possible that no finally will be performed? Is it possible that only the outermost (from method A) will be executed?
-- [ ] What is the difference between finally and fault?
-- [ ] Is the exception filter only syntactic sugar?
-- [ ] How to compact LOH?
-- What objects besides those with a size of 85,000+ bytes fly on the LOH in the dotnet framework?
-- How do you ask dotnet not to throw exceptions out of band?
-- How to "resurrect" an object? How do you make dotnet clean it again?
-- What is VM_HOARDING?
-- How do I turn off GC?
-- How to make a code snippet that will kill the entire app's domain when exception occurs?
-- What are interior pointers?
-- Can the interface have a type constructor? How to do it?
-- How do you change the name of the indexer?
-- Can the interface have static fields and methods? How to make them?
-- How many objects are created when initialized by new Foo {Bar = 1}?
-- What is covariance? Contravariance? How does it work in tables, and how in generics?
-- Does dynamic support extension methods?
-- What is the difference in calling equals from ==?
-- How to make a parameter-free constructor for a structure?
-- What is the difference between new Structure () and default (Structure) where Structure is struct?
+- [x] 001 What happens when I throw exception as something that doesnt inherit from System.Exception? What's going on up to 1?
+- [x] 002 How to effectively swallow ThreadAbortException?
+- [x] 003 How to catch AccessViolation exceptions? How to catch them at .NET 1?
+- [x] 004 Method A calls method B from the try block part try + finally. Method B causes an exception in the try block part of the try + finally block. Is it possible that no finally will be performed? Is it possible that only the outermost (from method A) will be executed?
+- [x] 005 What is the difference between finally and fault?
+- [x] 006 Is the exception filter only syntactic sugar?
+- [ ] 007 How to compact LOH?
+- [ ] 008 What objects besides those with a size of 85,000+ bytes fly on the LOH in the dotnet framework?
+- [ ] 009 How do you ask dotnet not to throw exceptions out of band?
+- [ ] 010 How to "resurrect" an object? How do you make dotnet clean it again?
+- [ ] 011 What is VM_HOARDING?
+- [ ] 012 How do I turn off GC?
+- [ ] 013 How to make a code snippet that will kill the entire app's domain when exception occurs?
+- [ ] 014 What are interior pointers?
+- [ ] 015 Can the interface have a type constructor? How to do it?
+- [ ] 016 How do you change the name of the indexer?
+- [ ] 017 Can the interface have static fields and methods? How to make them?
+- [ ] 018 How many objects are created when initialized by new Foo {Bar = 1}?
+- [ ] 019 What is covariance? Contravariance? How does it work in tables, and how in generics?
+- [ ] 020 Does dynamic support extension methods?
+- [ ] 021 What is the difference in calling equals from ==?
+- [ ] 022 How to make a parameter-free constructor for a structure?
+- [ ] 023 What is the difference between new Structure () and default (Structure) where Structure is struct?
 - What resolution does TimeSpan have?
 - How many bytes does an empty structure occupy?
 - What is the blittable type?

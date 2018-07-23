@@ -9,7 +9,6 @@ obj
 packages
 tools
 publish
-
 .paket
 .settings
 .classpath

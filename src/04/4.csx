@@ -10,6 +10,8 @@ using System.Runtime.InteropServices;
 
 class Program {
 
+    static int Number { get { return Number; } }
+
     static void A() {
         try {
             B();
@@ -20,8 +22,8 @@ class Program {
 
     static void B() {
         try {
-            IntPtr ptr = new IntPtr(123);
-            Marshal.StructureToPtr(123, ptr, true);
+            var a = Number;
+        } catch (Exception e) {
         } finally {
             Console.WriteLine("Final B");
         }
@@ -33,6 +35,6 @@ class Program {
 }
 
 /*
-csc src/04/M.csx
-mono M.exe
+csc src/04/4.csx
+mono 4.exe
 */
