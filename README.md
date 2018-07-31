@@ -49,7 +49,7 @@ From [reddit](https://www.reddit.com/r/csharp/comments/90pufd/list_of_80_c_inter
 - [ ] 045 How to block access to private ingredients through reflection?
 - [ ] 046 Does foreach require an interface? What is WellKnownMember?
 - [ ] 047 What call convention does dotnet use?
-- [ ] 048 How do I await async void? How to catch an exception from this method?
+- [x] 048 How do I await async void? How to catch an exception from this method?
 - [ ] 049 What'll happen if an exception will occur at async task but not awaited.
 - [ ] 050 How does query syntax work in LINQ? What is it compiled for?
 - [ ] 051 What is the difference between Select and IEnumerable from that of IQueryable?
@@ -65,7 +65,7 @@ From [reddit](https://www.reddit.com/r/csharp/comments/90pufd/list_of_80_c_inter
 - [ ] 061 Can Timer be cleaned up if he has to make some callbacks, but no one has references to him?
 - [ ] 062 Is it possible to pass a volatile variable by reference?
 - [ ] 063 Are streams thread safe?
-- [ ] 064 Can you lock value type?
+- [x] 064 Can you lock value type?
 - [ ] 065 What is shared between the app's domains?
 - [ ] 066 Does Thread.Yield or Thread.Join pump COM messages?
 - [ ] 067 How is Thread.Yield different from Thread.Sleep (0)?
