@@ -54,7 +54,7 @@ From [reddit](https://www.reddit.com/r/csharp/comments/90pufd/list_of_80_c_inter
 - [ ] 050 How does query syntax work in LINQ? What is it compiled for?
 - [ ] 051 What is the difference between Select and IEnumerable from that of IQueryable?
 - [ ] 052 Can decimal be const? A string? And the class Foo instance?
-- [ ] 053 Can x == x give false? A x.Equals (x)?
+- [x] 053 Can x == x give false? A x.Equals (x)?
 - [ ] 054 What is the card table? A brick table?
 - [ ] 055 What is write barrier?
 - [ ] 056 Do value types have a method table? What is the method table?
