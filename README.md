@@ -25,62 +25,62 @@ From [reddit](https://www.reddit.com/r/csharp/comments/90pufd/list_of_80_c_inter
 - [ ] 021 What is the difference in calling equals from ==?
 - [ ] 022 How to make a parameter-free constructor for a structure?
 - [ ] 023 What is the difference between new Structure () and default (Structure) where Structure is struct?
-- [ ] What resolution does TimeSpan have?
-- [ ] How many bytes does an empty structure occupy?
-- [ ] What is the blittable type?
-- [ ] Can two methods differ only in the type returned?
-- [ ] What is the difference between const and readonly?
-- [ ] How are the parameters passed in C #? By value? By reference? Otherwise?
-- [ ] In what order are the parameters calculated when calling a function?
-- [ ] What is the difference between typeof and GetType?
-- [ ] How are compiled using, lock? How did the lock change around .NET 4?
-- [ ] How much memory does the thread eat at the start?
-- [ ] What is string interning?
-- [ ] What is the switch compiled for?
-- [ ] What is a macereph? refvalue? refType? argslist?
-- [ ] How to make a union in C #?
-- [ ] How many appdomen there's defaultly?
-- [ ] How many threads does the app have at the start?
-- [ ] What happens when there'll be an exception @ finalizer? What will happen if it's an infinite loop?
-- [ ] What is syncblock?
-- [ ] Does P / Invoke pin points to objects?
-- [ ] What is object pinning?
-- [ ] Is it possible to nest class in class? or In the interface? Interface in the class?
-- [ ] How to block access to private ingredients through reflection?
-- [ ] Does foreach require an interface? What is WellKnownMember?
-- [ ] What call convention does dotnet use?
-- [ ] How do I await async void? How to catch an exception from this method?
-- [ ] What'll happen if an exception will occur at async task but not awaited.
-- [ ] How does query syntax work in LINQ? What is it compiled for?
-- [ ] What is the difference between Select and IEnumerable from that of IQueryable?
-- [ ] Can decimal be const? A string? And the class Foo instance?
-- [ ] Can x == x give false? A x.Equals (x)?
-- [ ] What is the card table? A brick table?
-- [ ] What is write barrier?
-- [ ] Do value types have a method table? What is the method table?
-- [ ] Is generation 0 compacted?
-- [ ] What is finalization queue? What is f-reachable queue?
-- [ ] Does CLR support fibers?
-- [ ] What is the unmanaged class in C ++ / CLI compiled for?
-- [ ] Can Timer be cleaned up if he has to make some callbacks, but no one has references to him?
-- [ ] Is it possible to pass a volatile variable by reference?
-- [ ] Are streams thread safe?
-- [ ] Can you lock value type?
-- [ ] What is shared between the app's domains?
-- [ ] Does Thread.Yield or Thread.Join pump COM messages?
-- [ ] How is Thread.Yield different from Thread.Sleep (0)?
-- [ ] What are the rules of the memory model?
-- [ ] From what is delegate inheriting?
-- [ ] We have a delegate with three methods. What happens if the first "hooked" method throws an exception?
-- [ ] What is the difference between delegate {...} and delegate () {...}?
-- [ ] Can you define a global field?
-- [ ] Can you write DllMain in C #?
-- [ ] Is it possible to write your own `Nullable <t>`?
-- [ ] What is casting on true and false?
-- [ ] Can you have a try in the yield method? A catch? And finally? in the async method?
-- [ ] What is the bit-mapped attribute? Custom? Pseudo-custom?
-- [ ] After which he inherits the array?
-- [ ] Is it possible to make an indexed index from two?
-- [ ] What is shim?
-- [ ] What is the difference between F-Call and Q-Call
-- [ ] What's the difference between filling `new List<T>()` and than `new List<T>(size)`
+- [ ] 024 What resolution does TimeSpan have?
+- [ ] 025 How many bytes does an empty structure occupy?
+- [ ] 026 What is the blittable type?
+- [ ] 027 Can two methods differ only in the type returned?
+- [ ] 028 What is the difference between const and readonly?
+- [ ] 029 How are the parameters passed in C #? By value? By reference? Otherwise?
+- [ ] 030 In what order are the parameters calculated when calling a function?
+- [ ] 031 What is the difference between typeof and GetType?
+- [ ] 032 How are compiled using, lock? How did the lock change around .NET 4?
+- [ ] 033 How much memory does the thread eat at the start?
+- [ ] 034 What is string interning?
+- [ ] 035 What is the switch compiled for?
+- [ ] 036 What is a macereph? refvalue? refType? argslist?
+- [ ] 037 How to make a union in C #?
+- [ ] 038 How many appdomen there's defaultly?
+- [ ] 039 How many threads does the app have at the start?
+- [ ] 040 What happens when there'll be an exception @ finalizer? What will happen if it's an infinite loop?
+- [ ] 041 What is syncblock?
+- [ ] 042 Does P / Invoke pin points to objects?
+- [ ] 043 What is object pinning?
+- [ ] 044 Is it possible to nest class in class? or In the interface? Interface in the class?
+- [ ] 045 How to block access to private ingredients through reflection?
+- [ ] 046 Does foreach require an interface? What is WellKnownMember?
+- [ ] 047 What call convention does dotnet use?
+- [ ] 048 How do I await async void? How to catch an exception from this method?
+- [ ] 049 What'll happen if an exception will occur at async task but not awaited.
+- [ ] 050 How does query syntax work in LINQ? What is it compiled for?
+- [ ] 051 What is the difference between Select and IEnumerable from that of IQueryable?
+- [ ] 052 Can decimal be const? A string? And the class Foo instance?
+- [ ] 053 Can x == x give false? A x.Equals (x)?
+- [ ] 054 What is the card table? A brick table?
+- [ ] 055 What is write barrier?
+- [ ] 056 Do value types have a method table? What is the method table?
+- [ ] 057 Is generation 0 compacted?
+- [ ] 058 What is finalization queue? What is f-reachable queue?
+- [ ] 059 Does CLR support fibers?
+- [ ] 060 What is the unmanaged class in C ++ / CLI compiled for?
+- [ ] 061 Can Timer be cleaned up if he has to make some callbacks, but no one has references to him?
+- [ ] 062 Is it possible to pass a volatile variable by reference?
+- [ ] 063 Are streams thread safe?
+- [ ] 064 Can you lock value type?
+- [ ] 065 What is shared between the app's domains?
+- [ ] 066 Does Thread.Yield or Thread.Join pump COM messages?
+- [ ] 067 How is Thread.Yield different from Thread.Sleep (0)?
+- [ ] 068 What are the rules of the memory model?
+- [ ] 069 From what is delegate inheriting?
+- [ ] 070 We have a delegate with three methods. What happens if the first "hooked" method throws an exception?
+- [ ] 071 What is the difference between delegate {...} and delegate () {...}?
+- [ ] 072 Can you define a global field?
+- [ ] 073 Can you write DllMain in C #?
+- [ ] 074 Is it possible to write your own `Nullable <t>`?
+- [ ] 075 What is casting on true and false?
+- [ ] 076 Can you have a try in the yield method? A catch? And finally? in the async method?
+- [ ] 077 What is the bit-mapped attribute? Custom? Pseudo-custom?
+- [ ] 078 After which he inherits the array?
+- [ ] 079 Is it possible to make an indexed index from two?
+- [ ] 081 What is shim?
+- [ ] 082 What is the difference between F-Call and Q-Call
+- [ ] 083 What's the difference between filling `new List<T>()` and than `new List<T>(size)`
